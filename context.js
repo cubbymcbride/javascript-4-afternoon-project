@@ -17,9 +17,15 @@
   email --> which is a string
   getUsername --> which is a function that returns the current object's username property. *Don't use 'user' instead use the 'this' keyword*
 */
-  
 
-//Code Here
+function getUsername(){
+  return this.username
+}
+
+let user = {
+  username: 'cubbymcbride',
+  email:'atfbassman@yahoo.com'
+}
 
 
 
